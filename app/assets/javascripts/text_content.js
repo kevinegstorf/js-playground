@@ -15,3 +15,22 @@ function updateMessage() {
 }
 
 updateMessage();
+
+// function area(width, height){
+//   var el = document.getElementById('tester');
+//   el.textContent = area;
+//   return width * height;
+// }
+//
+// var areaSize = area(3, 4);
+
+// areaSize.document.getElementById('tester');
+
+var hotel = {
+  name: "L'europe",
+  rooms: 500,
+  booked: 250,
+  checkAvailability: function () {
+    return this.rooms - this.booked;
+  }
+};

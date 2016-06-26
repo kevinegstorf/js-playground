@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'main_page#index'
   resources :text_content, only: :index
+    resources :object_literals, only: :index
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
